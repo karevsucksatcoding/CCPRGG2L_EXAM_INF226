@@ -52,7 +52,7 @@ public class Regex {
         // The prefix appears to the left of the @ symbol.
         // The domain appears to the right of the @ symbol. (e.g. gmail.com)
 
-        // Rules
+        // Rules: When the code seems to be incorrectly written
 
         // 1. The email domain should always end with "gmail.com" if your first name is
         // more than one.
