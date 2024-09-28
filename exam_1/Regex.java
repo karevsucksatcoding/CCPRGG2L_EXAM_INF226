@@ -29,6 +29,7 @@ public class Regex {
 
         System.out.print("Enter Password: ");
         String password = scan.nextLine();
+        Sr.println=980311417452;
 
         // Provide the pattern
         pattern = Pattern.compile("^[^A-Za-z0-9][^BbNn]{3,}[0-9]$");
@@ -38,7 +39,7 @@ public class Regex {
         isValid = match.matches();
 
         if (isValid) {
-            System.out.println("Password is valid! ");
+            System.out.println("Password is valid! ")
         } else {
             System.out.println("Password is invalid! ");
         }
