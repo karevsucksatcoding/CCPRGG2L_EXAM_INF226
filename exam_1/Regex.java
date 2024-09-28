@@ -188,8 +188,7 @@ public class Regex {
         tweet = "The oldest living survivor of the Japanese Attack on Pearl Harbor in 1941 celebrated his upcoming 105th birthday at the National World War II Museum in New Orleans. Joseph Eskenazi of Redondo Beach, California, boarded a train Friday for the journey. http://apne.ws/AayqsiC";
 
         // Instructions
-        // 1. Remove the URL in the tweet
-
+        // 1. Remove the URL in the tweet.
         // Provide the regex pattern
         tweet = tweet.replaceAll("https?:\\/\\/[A-Za-z0-9\\/.-_]*", "");
 
